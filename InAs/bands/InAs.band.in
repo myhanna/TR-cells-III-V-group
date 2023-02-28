@@ -1,6 +1,0 @@
-&BANDS
- outdir         = './work/',
- prefix         = 'InAs',
- filband        = 'InAs.bands',
- lsym           = .TRUE.
-/
