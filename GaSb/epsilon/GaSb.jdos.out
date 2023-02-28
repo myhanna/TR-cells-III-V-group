@@ -1,0 +1,68 @@
+
+     Program epsilon v.7.1 starts on 24Feb2023 at  6: 1:51 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    36 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      36
+     3890 MiB available memory on the printing compute node when the environment starts
+ 
+
+
+     Reading input file...
+     Broadcasting variables...
+     Reading PW restart file...
+
+     Reading xml data from directory:
+
+     ./work/GaSb.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PZ
+                           (   1   1   0   0   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          39      39     12                  961      961     159
+     Max          40      40     13                  967      967     163
+     Sum        1405    1405    433                34717    34717    5817
+ 
+     Using Slab Decomposition
+ 
+
+
+     Fermi energy [eV] is:  4.96225
+     The system is a dielectric...
+     metallic system: redefining wmin =     0.000000
+
+     Performing jdos calculation...
+
+     Integration over JDOS gives:     0.210123089 instead of 1.0d0
+
+     Writing output on file...
+
+
+     jdos         :     43.44s CPU     43.51s WALL (       1 calls)
+ 
+ 
+     epsilon      :   1m55.63s CPU   2m11.61s WALL
+
+ 
+   This run was terminated on:   6: 4: 3  24Feb2023            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

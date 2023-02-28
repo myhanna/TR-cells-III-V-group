@@ -1,0 +1,48 @@
+&CONTROL
+    calculation   = 'vc-relax',
+    prefix        = 'InP',
+    tprnfor       = .TRUE.,
+    tstress       = .TRUE.,
+    wf_collect    = .TRUE.,
+    etot_conv_thr =  1.0000000000d-06,
+    forc_conv_thr =  1.0000000000d-05,
+    nstep         = 100,
+    pseudo_dir    = '../../pseudo/',
+    outdir        = './work/'    
+/
+
+&SYSTEM
+    a           = 5.8687,
+    ibrav       = 2,
+    nat         = 2,
+    ntyp        = 2,    
+    ecutwfc     = 80.0   
+/
+
+&ELECTRONS
+    diagonalization   = 'david',
+    conv_thr          = 1.0000000000d-10,
+    mixing_beta       = 0.15
+/
+
+&IONS
+    ion_dynamics     = 'bfgs'
+/
+
+&CELL
+    cell_dynamics    = 'bfgs',
+    press_conv_thr   = 0.05,
+    cell_dofree      = 'ibrav',
+    cell_factor      = 4
+/
+
+ATOMIC_SPECIES
+In    114.81800  In.pz-hgh.upf
+P      30.97376  P.pz-hgh.upf
+
+ATOMIC_POSITIONS (crystal)
+In      0.000000   0.000000   0.000000  0 0 0
+P       0.250000   0.250000   0.250000  0 0 0
+
+K_POINTS (automatic)
+8 8 8 1 1 1

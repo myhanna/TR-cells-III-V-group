@@ -1,0 +1,6 @@
+&BANDS
+ outdir         = './work/',
+ prefix         = 'InP',
+ filband        = 'InP.bands',
+ lsym           = .TRUE.
+/

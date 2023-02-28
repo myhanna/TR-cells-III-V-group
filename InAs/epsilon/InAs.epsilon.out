@@ -1,0 +1,69 @@
+
+     Program epsilon v.7.1 starts on 30Jan2023 at 20:18:29 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    20 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      20
+     2336 MiB available memory on the printing compute node when the environment starts
+ 
+
+
+     Reading input file...
+     Broadcasting variables...
+     Reading PW restart file...
+
+     Reading xml data from directory:
+
+     ./work/InAs.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PZ
+                           (   1   1   0   0   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          69      69     21                 1690     1690     283
+     Max          70      70     22                 1692     1692     286
+     Sum        1381    1381    421                33823    33823    5673
+ 
+     Using Slab Decomposition
+ 
+
+
+     Fermi energy [eV] is:  4.20774
+     The system is a dielectric...
+     metallic system: redefining wmin =     0.000000
+
+     Performing eps calculation...
+
+     xx,yy,zz plasmon frequences [eV] are:    13.186217176   13.186217176   13.186217176
+
+     Writing output on file...
+
+
+     eps          :    161.81s CPU    532.85s WALL (       1 calls)
+     dipole_calc  :    107.96s CPU    476.08s WALL (   32768 calls)
+ 
+ 
+     epsilon      :   3m29.58s CPU  10m 1.22s WALL
+
+ 
+   This run was terminated on:  20:28:30  30Jan2023            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
