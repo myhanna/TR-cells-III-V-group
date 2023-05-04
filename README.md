@@ -1,3 +1,3 @@
 # Thermoradiative Cells in the III-V Group (GaAs, GaSb, InAs, InP)
 
-> This repository contains code to calculate the thermoradiative properties of cells made from III-V semiconductors, specifically GaAs, GaSb, InAs, and InP.
+This repository features code to analyze the performance of thermoradiative (TR) cells made from III-V group materials, such as GaAs, GaSb, InAs, and InP, characterized by a direct bandgap in a cubic lattice with a zinc-blende structure. Adapted from our paper "<b>Computational study of III-V direct-gap semiconductors for thermoradiative cell applications</b>" by M. Y. Hanna, M. Aziz Majidi, and A. R. T. Nugraha, published in Nanotechnology (2023) and available at [https://iopscience.iop.org/article/10.1088/1361-6528/acd1f7](https://iopscience.iop.org/article/10.1088/1361-6528/acd1f7) and [https://arxiv.org/abs/2304.14917](https://arxiv.org/abs/2304.14917), please consider citing the above publication if you find this notebook helpful.
